@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mahalakshmi N - Software Engineer & M.Sc. Computer Science Graduate Portfolio. Expertise in Python, Django, Flask, Full Stack Development, AWS Cloud, and DevOps." />
+  <title>Mahalakshmi N | Software Engineer & Cloud Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Glow & Grid Canvas -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-bracket">&lt;</span>Mahalakshmi <span class="accent-text">N</span><span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-layer-group"></i> Projects</a>
+        <a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+        <a href="#contact" class="nav-link nav-btn"><i class="fa-regular fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="menuToggle" class="icon-btn mobile-toggle" aria-label="Toggle mobile menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="pulse-dot"></span>
+            <span>Available for Opportunities &bull; Software & Cloud Engineer</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Mahalakshmi N</span>
+          </h1>
+          
+          <h2 class="hero-subtitle">
+            <span class="typewriter-prefix">Specialized in </span>
+            <span id="typewriter" class="typewriter-text"></span>
+            <span class="cursor">|</span>
+          </h2>
+
+          <p class="hero-description">
+            Software Engineer and M.Sc. Computer Science postgraduate passionate about engineering high-performance web backends, resilient AWS cloud infrastructure, automated CI/CD deployment pipelines, and impactful data-driven applications.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Projects
+            </a>
+            <a href="mailto:ml7954005maha@gmail.com" class="btn btn-outline">
+              <i class="fa-regular fa-envelope"></i> Get In Touch
+            </a>
+          </div>
+
+          <div class="hero-quick-meta">
+            <div class="meta-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Chennai, Tamil Nadu</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:ml7954005maha@gmail.com">ml7954005maha@gmail.com</a>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+916379368001">+91 6379368001</a>
+            </div>
+            <div class="meta-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://linkedin.com/in/mahalakshmi-n-0b68b5302" target="_blank" rel="noopener noreferrer">mahalakshmi-n-0b68b5302</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card-wrapper">
+          <div class="code-terminal-card glass-panel">
+            <div class="terminal-header">
+              <div class="terminal-buttons">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="terminal-title"><i class="fa-brands fa-python"></i> engineer_profile.py</div>
+            </div>
+            <pre class="terminal-body"><code><span class="token-keyword">class</span> <span class="token-class">SoftwareEngineer</span>:
+    <span class="token-keyword">def</span> <span class="token-func">__init__</span>(<span class="token-param">self</span>):
+        <span class="token-param">self</span>.name = <span class="token-str">"Mahalakshmi N"</span>
+        <span class="token-param">self</span>.degree = <span class="token-str">"M.Sc. Computer Science (90%)"</span>
+        <span class="token-param">self</span>.primary_stack = [<span class="token-str">"Python"</span>, <span class="token-str">"Django"</span>, <span class="token-str">"Flask"</span>]
+        <span class="token-param">self</span>.cloud_devops = [<span class="token-str">"AWS"</span>, <span class="token-str">"Linux"</span>, <span class="token-str">"CI/CD"</span>, <span class="token-str">"Jenkins"</span>]
+        <span class="token-param">self</span>.databases = [<span class="token-str">"PostgreSQL"</span>, <span class="token-str">"MySQL"</span>, <span class="token-str">"SQLite3"</span>]
+        <span class="token-param">self</span>.location = <span class="token-str">"Chennai, Tamil Nadu"</span>
+
+    <span class="token-keyword">def</span> <span class="token-func">build_solutions</span>(<span class="token-param">self</span>):
+        <span class="token-keyword">return</span> {
+            <span class="token-str">"scalability"</span>: <span class="token-str">"Cloud-Native on AWS"</span>,
+            <span class="token-str">"reliability"</span>: <span class="token-str">"Automated CI/CD & Testing"</span>,
+            <span class="token-str">"performance"</span>: <span class="token-str">"Optimized APIs & Databases"</span>
+        }
+
+engineer = <span class="token-class">SoftwareEngineer</span>()
+<span class="token-comment"># Ready to engineer resilient digital systems!</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Summary Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag"><i class="fa-solid fa-sparkles"></i> Overview</p>
+          <h2 class="section-title">Professional Summary</h2>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-panel highlight-box">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            <p class="about-text">
+              Software Engineer and <strong>M.Sc. Computer Science</strong> postgraduate with hands-on experience in <strong>Python</strong>, <strong>Django</strong>, <strong>Flask</strong>, full stack web development, REST APIs, databases, <strong>AWS Cloud</strong>, and <strong>DevOps</strong> practices.
+            </p>
+            <p class="about-text">
+              Experienced in building web applications using Python, HTML, CSS, JavaScript, Bootstrap, and Django, with practical knowledge of MySQL, PostgreSQL, and SQLite. Hands-on experience with AWS, Linux, Git, GitHub, Jenkins, CI/CD, Bash scripting, cloud deployment, monitoring, and security. Also experienced in Excel, Tableau, data analysis, and visualization.
+            </p>
+            <p class="about-text highlight-callout">
+              <i class="fa-solid fa-bullseye"></i> <strong>Goal:</strong> Interested in building reliable software applications and cloud-based solutions using modern development and DevOps practices.
+            </p>
+          </div>
+
+          <div class="stats-cards-grid">
+            <div class="stat-card glass-panel">
+              <div class="stat-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+              <div class="stat-number">15+</div>
+              <div class="stat-label">AWS Cloud Services Mastered</div>
+            </div>
+            <div class="stat-card glass-panel">
+              <div class="stat-icon"><i class="fa-solid fa-code-branch"></i></div>
+              <div class="stat-number">End-to-End</div>
+              <div class="stat-label">CI/CD & DevOps Automation</div>
+            </div>
+            <div class="stat-card glass-panel">
+              <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
+              <div class="stat-number">Full Stack</div>
+              <div class="stat-label">REST APIs & DB Architecture</div>
+            </div>
+            <div class="stat-card glass-panel">
+              <div class="stat-icon"><i class="fa-solid fa-user-graduate"></i></div>
+              <div class="stat-number">90%</div>
+              <div class="stat-label">Academic Distinction (M.Sc.)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag"><i class="fa-solid fa-screwdriver-wrench"></i> Technical Competencies</p>
+          <h2 class="section-title">Skills & Capabilities</h2>
+          <div class="title-bar"></div>
+          <p class="section-subtitle">Categorized directly from hands-on industry application, cloud architecture, and postgraduate coursework.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-code"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h3 class="category-title">Programming</h3>
+                <span class="category-subtitle">Core Languages</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="badge"><i class="fa-brands fa-js"></i> JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Backend & Full Stack -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-server"><i class="fa-solid fa-server"></i></div>
+              <div>
+                <h3 class="category-title">Backend & Full Stack</h3>
+                <span class="category-subtitle">Frameworks & APIs</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge badge-accent">Django</span>
+              <span class="badge badge-accent">Flask</span>
+              <span class="badge">REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-palette"><i class="fa-solid fa-laptop-code"></i></div>
+              <div>
+                <h3 class="category-title">Frontend</h3>
+                <span class="category-subtitle">UI & Responsive Design</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="badge"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="badge"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-database"><i class="fa-solid fa-database"></i></div>
+              <div>
+                <h3 class="category-title">Databases</h3>
+                <span class="category-subtitle">Relational Storage & SQL</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge">MySQL</span>
+              <span class="badge">PostgreSQL</span>
+              <span class="badge">SQLite3</span>
+              <span class="badge">SQL</span>
+            </div>
+          </div>
+
+          <!-- AWS Cloud -->
+          <div class="skill-category-card glass-panel full-span">
+            <div class="category-header">
+              <div class="category-icon icon-cloud"><i class="fa-brands fa-aws"></i></div>
+              <div>
+                <h3 class="category-title">AWS Cloud Services</h3>
+                <span class="category-subtitle">Compute, Storage, Networking, Security & Serverless</span>
+              </div>
+            </div>
+            <div class="skill-tags cloud-tags">
+              <span class="badge badge-aws"><i class="fa-solid fa-server"></i> EC2</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-hard-drive"></i> EBS</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-bucket"></i> S3</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-shield-halved"></i> IAM</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-network-wired"></i> VPC</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-arrows-split-up-and-left"></i> ELB / ALB</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-database"></i> RDS</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-route"></i> Route 53</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-bell"></i> SNS</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-chart-line"></i> CloudWatch</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-bolt"></i> CloudFront</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-lock"></i> WAF</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-microchip"></i> Lambda</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-door-open"></i> API Gateway</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-cubes"></i> CloudFormation</span>
+              <span class="badge badge-aws"><i class="fa-solid fa-chart-pie"></i> Redshift</span>
+            </div>
+          </div>
+
+          <!-- DevOps & Automation -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-devops"><i class="fa-solid fa-gears"></i></div>
+              <div>
+                <h3 class="category-title">DevOps & Automation</h3>
+                <span class="category-subtitle">CI/CD, Workflows & Linux</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="badge"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="badge"><i class="fa-brands fa-jenkins"></i> Jenkins</span>
+              <span class="badge">CI/CD</span>
+              <span class="badge"><i class="fa-brands fa-linux"></i> Linux</span>
+              <span class="badge"><i class="fa-solid fa-terminal"></i> Bash / Shell Scripting</span>
+              <span class="badge">Git Branching</span>
+              <span class="badge">Merging</span>
+              <span class="badge">Rebase</span>
+            </div>
+          </div>
+
+          <!-- Data Analysis & Visualization -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-chart"><i class="fa-solid fa-chart-simple"></i></div>
+              <div>
+                <h3 class="category-title">Data Analysis & Visualization</h3>
+                <span class="category-subtitle">Analytics & Reporting</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge"><i class="fa-solid fa-table"></i> Excel</span>
+              <span class="badge"><i class="fa-solid fa-chart-pie"></i> Tableau</span>
+              <span class="badge">Data Analysis</span>
+              <span class="badge">Data Visualization</span>
+            </div>
+          </div>
+
+          <!-- AI & Data -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-ai"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <h3 class="category-title">AI & Data</h3>
+                <span class="category-subtitle">Intelligent Systems</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge">Machine Learning</span>
+              <span class="badge">NLP</span>
+              <span class="badge">Generative AI</span>
+            </div>
+          </div>
+
+          <!-- Development Tools -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <div class="category-icon icon-tool"><i class="fa-solid fa-sliders"></i></div>
+              <div>
+                <h3 class="category-title">Development Tools</h3>
+                <span class="category-subtitle">IDEs & Environments</span>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="badge"><i class="fa-solid fa-code"></i> Visual Studio Code</span>
+              <span class="badge"><i class="fa-brands fa-python"></i> PyCharm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag"><i class="fa-solid fa-timeline"></i> Career Journey</p>
+          <h2 class="section-title">Work Experience</h2>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot current-role"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-top">
+                <div class="company-role">
+                  <span class="timeline-tag current">Present Role</span>
+                  <h3 class="role-title">Software Engineer</h3>
+                  <h4 class="company-name"><i class="fa-regular fa-building"></i> PUMO Technovation</h4>
+                </div>
+                <div class="timeline-meta">
+                  <span class="meta-date"><i class="fa-regular fa-calendar"></i> 06/2025 &ndash; Present</span>
+                  <span class="meta-loc"><i class="fa-solid fa-location-dot"></i> Chennai</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="task-list">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Develop, test, debug, and maintain software applications using <strong>Python</strong> and web development technologies.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Develop backend applications and web-based functionality using <strong>Django</strong> and <strong>Flask</strong>.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Build and integrate <strong>REST APIs</strong> for database-driven applications.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Work with <strong>MySQL, SQLite3, and PostgreSQL</strong> for application data management.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Develop web interfaces using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Use <strong>Git and GitHub</strong> for source code management, version control, and collaborative development.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Work with <strong>Linux command-line tools</strong> and <strong>Bash scripting</strong> for development and automation tasks.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Apply <strong>AWS cloud concepts</strong> for application deployment, infrastructure management, security, and monitoring.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Work with AWS services including <strong>EC2, EBS, S3, IAM, VPC, ELB/ALB, RDS, Route 53, SNS, CloudWatch, CloudFront, WAF, Lambda, API Gateway, CloudFormation, and Redshift</strong> through hands-on application and cloud environments.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Apply <strong>DevOps fundamentals</strong> including CI/CD, Jenkins, Git workflows, Linux administration, automation, and deployment practices.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="timeline-pills">
+                <span>Python</span>
+                <span>Django</span>
+                <span>Flask</span>
+                <span>PostgreSQL</span>
+                <span>AWS Cloud</span>
+                <span>Jenkins CI/CD</span>
+                <span>Linux & Bash</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-top">
+                <div class="company-role">
+                  <span class="timeline-tag">Internship</span>
+                  <h3 class="role-title">Python Developer Intern</h3>
+                  <h4 class="company-name"><i class="fa-regular fa-building"></i> CADD Infotech</h4>
+                </div>
+                <div class="timeline-meta">
+                  <span class="meta-date"><i class="fa-regular fa-calendar"></i> 06/2024 &ndash; 07/2024</span>
+                  <span class="meta-loc"><i class="fa-solid fa-location-dot"></i> Chennai</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <ul class="task-list">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Developed and tested <strong>Python applications</strong> using structured and maintainable coding practices.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Implemented and debugged application features based on project requirements.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Applied Python programming concepts to develop application-level solutions.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Used <strong>PyCharm and Visual Studio Code</strong> for application development and testing.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <span>Participated in code reviews, technical discussions, and collaborative development activities.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="timeline-pills">
+                <span>Python</span>
+                <span>Application Development</span>
+                <span>PyCharm</span>
+                <span>VS Code</span>
+                <span>Code Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag"><i class="fa-solid fa-diagram-project"></i> Featured Work</p>
+          <h2 class="section-title">Key Projects</h2>
+          <div class="title-bar"></div>
+          <p class="section-subtitle">Real-world projects spanning Cloud Infrastructure, Full Stack Engineering, Data Visualization, and NLP.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glass-panel featured-project">
+            <div class="project-header">
+              <div class="project-category-badge">
+                <i class="fa-solid fa-cloud"></i> Python Full Stack | AWS Cloud | DevOps
+              </div>
+              <div class="project-date"><i class="fa-regular fa-calendar"></i> 06/2026 &ndash; 08/2026</div>
+            </div>
+
+            <h3 class="project-title">Cloud-Based Freelance Project Management Platform</h3>
+
+            <p class="project-lead">
+              A comprehensive full stack platform engineered to help clients and freelancers manage projects, tasks, deadlines, and deliverables with robust cloud architecture.
+            </p>
+
+            <ul class="project-highlights">
+              <li><i class="fa-solid fa-chevron-right"></i> Built the backend using <strong>Python and Django</strong> with REST API-based application functionality.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Developed responsive frontend functionality using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Implemented database-driven application features using <strong>PostgreSQL</strong>.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Designed application workflows for project management, task tracking, user authentication, and deliverable management.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Applied AWS cloud services & architecture concepts for application hosting, storage, security, monitoring, and content delivery.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Configured services including <strong>EC2, S3, CloudFront, Lambda, API Gateway, IAM, WAF, CloudWatch, SNS, and Route 53</strong>.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Applied <strong>Git/GitHub, Linux, Jenkins, and CI/CD</strong> concepts for automated deployment workflows.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Followed DevOps practices: source control, automated build/deployment, cloud monitoring, and infrastructure management.</li>
+            </ul>
+
+            <div class="tech-stack-wrap">
+              <span class="tech-stack-label">Technologies:</span>
+              <div class="tech-badges">
+                <span>Python</span>
+                <span>Django</span>
+                <span>REST API</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+                <span>PostgreSQL</span>
+                <span>AWS (EC2, S3, CloudFront, Lambda, WAF, Route 53)</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Jenkins</span>
+                <span>Linux</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-panel">
+            <div class="project-header">
+              <div class="project-category-badge">
+                <i class="fa-solid fa-chart-pie"></i> Smart Phone Analysis | Data Visualization
+              </div>
+              <div class="project-date"><i class="fa-regular fa-calendar"></i> 01/2026 &ndash; 02/2026</div>
+            </div>
+
+            <h3 class="project-title">Smartphone Addiction Prediction Analysis Dashboard</h3>
+
+            <p class="project-lead">
+              An interactive visual analytics platform to decode smartphone usage patterns, habit tendencies, and analytical findings across user demographics.
+            </p>
+
+            <ul class="project-highlights">
+              <li><i class="fa-solid fa-chevron-right"></i> Developed an interactive <strong>Tableau dashboard</strong> to analyze smartphone usage patterns.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Created charts, filters, and interactive visualizations to identify usage-related trends.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Prepared and analyzed data to present meaningful insights through executive dashboards.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Applied data visualization principles to communicate analytical findings effectively.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Used <strong>Excel</strong> for data preparation, organization, cleansing, and analysis.</li>
+            </ul>
+
+            <div class="tech-stack-wrap">
+              <span class="tech-stack-label">Technologies:</span>
+              <div class="tech-badges">
+                <span>Tableau</span>
+                <span>Excel</span>
+                <span>Data Analysis</span>
+                <span>Data Visualization</span>
+                <span>Interactive Filters & Charts</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card glass-panel">
+            <div class="project-header">
+              <div class="project-category-badge">
+                <i class="fa-solid fa-brain"></i> AI & NLP | Conversational Chatbot
+              </div>
+              <div class="project-date"><i class="fa-regular fa-calendar"></i> 01/2025 &ndash; 04/2025</div>
+            </div>
+
+            <h3 class="project-title">AI-Based Mental Health Chatbot</h3>
+
+            <p class="project-lead">
+              An empathetic AI-powered conversational application providing supportive dialogue with fast LLM inference and session data persistence.
+            </p>
+
+            <ul class="project-highlights">
+              <li><i class="fa-solid fa-chevron-right"></i> Developed an AI-powered conversational chatbot using <strong>Python and Natural Language Processing</strong> techniques.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Built an interactive, intuitive chatbot interface using <strong>Streamlit</strong>.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Integrated the <strong>Groq API</strong> for high-speed AI-powered conversational responses.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Used <strong>SQLite3</strong> for lightweight application data storage and conversation logs.</li>
+              <li><i class="fa-solid fa-chevron-right"></i> Applied NLP and machine learning concepts to construct structured conversational logic.</li>
+            </ul>
+
+            <div class="tech-stack-wrap">
+              <span class="tech-stack-label">Technologies:</span>
+              <div class="tech-badges">
+                <span>Python</span>
+                <span>Streamlit</span>
+                <span>Flask</span>
+                <span>SQLite3</span>
+                <span>NLP</span>
+                <span>Machine Learning</span>
+                <span>Groq API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Credentials</p>
+          <h2 class="section-title">Education</h2>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="education-grid">
+          <!-- Degree 1 -->
+          <div class="education-card glass-panel highlight-border">
+            <div class="edu-score-badge">90%</div>
+            <div class="edu-icon"><i class="fa-solid fa-user-graduate"></i></div>
+            <span class="edu-year"><i class="fa-regular fa-calendar-check"></i> 2025</span>
+            <h3 class="edu-degree">MSc Computer Science</h3>
+            <h4 class="edu-institution"><i class="fa-solid fa-landmark"></i> Annamalai University</h4>
+            <p class="edu-desc">Postgraduate education covering advanced computation, software engineering principles, algorithms, and distributed computing.</p>
+            <div class="edu-pill">Postgraduate Distinction &bull; 90%</div>
+          </div>
+
+          <!-- Degree 2 -->
+          <div class="education-card glass-panel">
+            <div class="edu-score-badge">85%</div>
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <span class="edu-year"><i class="fa-regular fa-calendar-check"></i> 2023</span>
+            <h3 class="edu-degree">BSc Computer Science</h3>
+            <h4 class="edu-institution"><i class="fa-solid fa-landmark"></i> Shree Raghavendra Arts and Science College</h4>
+            <p class="edu-desc">Foundational undergraduate degree in computer science, software programming, databases, and mathematics.</p>
+            <div class="edu-pill">Undergraduate Distinction &bull; 85%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag"><i class="fa-solid fa-handshake"></i> Let's Connect</p>
+          <h2 class="section-title">Contact & Communication</h2>
+          <div class="title-bar"></div>
+          <p class="section-subtitle">Feel free to reach out for software engineering roles, cloud architecting, or technical collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card glass-panel">
+            <div class="contact-icon email-icon"><i class="fa-regular fa-envelope"></i></div>
+            <h3>Email Address</h3>
+            <p>Direct inbox for inquiries and job opportunities</p>
+            <a href="mailto:ml7954005maha@gmail.com" class="contact-link">ml7954005maha@gmail.com</a>
+          </div>
+
+          <div class="contact-card glass-panel">
+            <div class="contact-icon phone-icon"><i class="fa-solid fa-phone"></i></div>
+            <h3>Phone Number</h3>
+            <p>Call or WhatsApp for direct discussion</p>
+            <a href="tel:+916379368001" class="contact-link">+91 6379368001</a>
+          </div>
+
+          <div class="contact-card glass-panel">
+            <div class="contact-icon linkedin-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <h3>LinkedIn Profile</h3>
+            <p>Connect with my professional network</p>
+            <a href="https://linkedin.com/in/mahalakshmi-n-0b68b5302" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/mahalakshmi-n-0b68b5302</a>
+          </div>
+
+          <div class="contact-card glass-panel">
+            <div class="contact-icon loc-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <h3>Location</h3>
+            <p>Current base of operations</p>
+            <span class="contact-link text-static">Chennai, Tamil Nadu</span>
+          </div>
+        </div>
+
+        <!-- Contact Box / Quick Message -->
+        <div class="contact-cta-banner glass-panel">
+          <div class="cta-text">
+            <h3>Interested in discussing a software or cloud project?</h3>
+            <p>I am actively open to engineering roles and cloud consulting. Let's build something exceptional together!</p>
+          </div>
+          <div class="cta-actions">
+            <a href="mailto:ml7954005maha@gmail.com" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Send Direct Email
+            </a>
+            <a href="https://linkedin.com/in/mahalakshmi-n-0b68b5302" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <i class="fa-brands fa-linkedin"></i> View LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <span class="logo-bracket">&lt;</span>Mahalakshmi <span class="accent-text">N</span><span class="logo-bracket">/&gt;</span>
+        </div>
+        <p class="footer-sub">Software Engineer &bull; Cloud Developer &bull; Chennai, Tamil Nadu</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <p class="copyright">&copy; <span id="currentYear"></span> Mahalakshmi N. All Rights Reserved.</p>
+        <p class="footer-note">Crafted based on official curriculum vitae &bull; Static Portfolio</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top" title="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript Script -->
+  <script src="script.js"></script>
+</body>
+</html>
+
